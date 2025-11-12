@@ -1,5 +1,6 @@
 // src/lib/supabaseAdmin.ts
 import { createClient } from "@supabase/supabase-js";
+import "server-only";
 
 export const supabaseAdmin = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
