@@ -23,6 +23,14 @@ export default function Home() {
       <p className="mt-6 text-sm text-gray-600">
         Day-1 check: you can sign in and see your identity here.
       </p>
+
+      <a className="underline text-blue-600 mr-4" href="/dashboard">
+  Dashboard
+</a>
+<a className="underline text-blue-600" href="/caregivers">
+  Caregivers
+</a>
+
     </main>
   );
 }
